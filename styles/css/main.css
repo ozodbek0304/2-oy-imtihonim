@@ -877,25 +877,29 @@ a {
     flex-direction: column;
   }
 }
-.loading {
+.loader {
   background-color: brown;
   position: fixed;
   inset: 0;
   z-index: 9999;
   display: grid;
   place-items: center;
+  -webkit-animation: yuqol 0.5s linear 3s both;
+          animation: yuqol 0.5s linear 3s both;
 }
 
-.loader i {
+.loading i {
   font-size: 150px;
-  -webkit-animation: aylanish 3s ease-in-out infinite;
-          animation: aylanish 3s ease-in-out infinite;
+  -webkit-animation: aylanish 1.5s ease-in-out infinite;
+          animation: aylanish 1.5s ease-in-out infinite;
 }
+
 @-webkit-keyframes aylanish {
   to {
     transform: rotate(360deg);
   }
 }
+
 @keyframes aylanish {
   to {
     transform: rotate(360deg);
