@@ -1,0 +1,60 @@
+.more{
+     .friend{height: 342px;
+    background-color: #003459;
+    border-radius: 15px;
+     }    
+
+    .portion{
+                padding-left: 8rem;
+        .view {
+                margin: 2rem 0;
+            }
+        h2{
+            width: 503px;
+            height: 68px;
+            font-size: 52px;
+            line-height: 68px;
+            font-weight: 800;
+        }
+        h3{
+            width: 454px;
+            height: 54px;
+            font-weight: 700;
+            line-height: 54px;
+            font-size: 36px;
+        }
+        p{width: 394px;
+            height: 54px;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+
+        }
+                .intro {
+                    width: 161px;
+                    height: 48px;
+                    border-radius: 57px;
+                    border: 1px solid #002459;
+                    background-color: #FCEED5;
+                    text-align: center;
+                    display: flex;
+                    color: #002459;
+                    justify-content: center;
+                    align-items: center;
+                }
+        
+                .now {
+                    width: 161px;
+                    height: 48px;
+                    border-radius: 57px;
+                    border: 1px solid #002459;
+                    color: #FDFDFD;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #002459;
+                    transform: translateX(1rem);
+                }
+    }
+}

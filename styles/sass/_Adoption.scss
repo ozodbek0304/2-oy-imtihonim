@@ -1,0 +1,77 @@
+.adaption{
+    padding-top: 6rem;
+    .sellers{
+            width: 261px;
+            height: 48px;
+            border-radius: 57px;
+            border: 1px solid #002459;
+            background-color: #ffffff;
+            text-align: center;
+            display: flex;
+            color: #002459;
+            justify-content: center;
+            align-items: center;
+        }
+        .need{
+            transform: translateY(5rem);
+        }
+        .moito{
+            padding: 6rem 0;
+        }
+        .adop{
+            background-color:#FFB775;
+            border-radius:15px;
+            .sheba{
+                transform: translateX(50px);
+                padding-top: 3rem;
+                .intro {
+                        width: 161px;
+                        height: 48px;
+                        border-radius: 57px;
+                        border: 1px solid #002459;
+                        background-color: #ffffff;
+                        text-align: center;
+                        display: flex;
+                        color: #002459;
+                        justify-content: center;
+                        align-items: center;
+                    }
+   .now1 {
+       width: 161px;
+       height: 48px;
+       border-radius: 57px;
+       border: 1px solid #002459;
+       color: #FDFDFD;
+       text-align: center;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: #002459;
+       transform: translateX(1rem);
+   }
+                h2{width: 250px;
+                    height: 68px;
+                    font-size: 52px;
+                    font-weight: 800;
+                    color: #242B33;
+                    margin-bottom: 1rem;
+                }
+                h3{
+                    width: 480px;
+                    height: 54px;
+                    font-weight: 700;
+                    font-size: 36px;
+                    color: #242B33;
+                }
+                p{width: 249px;
+                    height: 36px;
+                    padding: 1rem 0;
+                    font-weight: 500;
+                    font-size: 14px;
+                    color: #242B33;
+
+                }
+            }
+            
+        }
+}

@@ -1,0 +1,93 @@
+.headir{
+    background-repeat: no-repeat;
+    background-position: bottom;
+background-color:#FCEED5;
+background-position-x: right;
+.container{
+    background-color:#FCEED5;
+}
+    
+    
+    .navbar{background-color:#FCEED5;
+        .dropdown {
+                position: relative;
+        
+                .dropdown-menu {
+                    top:100%;
+                    width: 150px;
+                    position:absolute;
+                    background-color: #FFFFFF;
+                    border: 1px solid #333;
+                    border-radius: 5px;
+                    box-shadow: 0 0 20px #aaa;
+                    display: none;
+                 .oll{   li{
+                        background-color:#adc1a5;
+                        font-size: 1rem;
+                        margin-top: 1rem;
+                        width: 90px;
+                        height: 30px;
+                        text-align: center;
+                        border-radius:5px;
+                    } }
+        
+                }
+        
+                #menu-links:checked+.dropdown-menu {
+                    display: block;
+                    padding: 1rem;
+                }
+            }
+                        .sider{display: none;
+
+                            .sidbar{
+                                position: fixed;
+                                top:0;
+                                left: 0;
+                                width: 400px;
+                                height: 100%;
+                                background-color:#adc1a5;
+                                box-shadow:0 0 20px;
+                                transform: translateX(-100%);
+                                .join{
+                                    transform: translateX(80px);
+                                }
+                                .search{
+                                    display: block;
+                                    opacity: 100%;
+                                }
+                            }
+                            input[type="checkbox"]:checked +.sidbar{
+                                transform: translateX(0);
+                            }
+                        }
+        min-height: 84px;
+        .all{
+            transform: translateX(5rem);
+        }
+        .searchh{display: none;
+            width: 280px;
+            height: 44px;
+            background-color:#FDFDFD;
+            display: flex;
+            justify-content: space-evenly;
+            text-align: center;
+            align-items:center;
+            border-radius: 46px;
+            transform: translateX(3rem);
+            input{
+                border: none;
+                height: 44px;
+        
+            }
+           
+        }
+                 button{
+                     width: 203px;
+                     height: 44px;
+                     color:#FDFDFD;
+                     background-color: #003459;
+                     border-radius: 57px;
+                     }
+                 }
+    }

@@ -1,0 +1,150 @@
+@media (max-width:414px) {
+    .container {
+        width:410px;
+
+        .explore {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .friend {
+            max-width: 600px;
+            height: 700px;
+            display: flex;
+            margin-left: 8.5rem;
+            flex-direction: column-reverse;
+        }
+    }
+
+    .sect {
+        .are {
+            display: grid;
+            grid-template-columns: repeat(2, 280px);
+            grid-template-rows: repeat(4, fr);
+            justify-content: center;
+            gap: 2rem 2rem
+        }
+    }
+
+    .products {
+        .our {
+            padding: 2rem 6rem;
+            margin-left: 3rem;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .shoker {
+            display: grid;
+            grid-template-columns: repeat(2, 169px);
+            grid-template-rows: repeat(4,364px);
+            justify-content: center;
+            gap: 2rem 2rem;
+
+        }
+    }
+
+    .knowledge {
+        .pet {
+            display: flex;
+            justify-content: space-evenly;
+            line-height: 30px;
+        }
+
+        .div-dogs {
+            .doggs2{
+                display: block;
+            }
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(3, 1fr);
+            justify-content: center;
+        }
+    }
+
+    .adaption {
+        display: none;
+
+    }
+
+    .foother {
+        .foother-center {
+            margin-top: 5rem;
+            display: flex;
+            flex-direction: column;
+            .submit{
+                display: flex;
+                flex-direction: column;
+            }
+
+            h2 {
+                width: 100%;
+            }
+
+            a {
+                display: flex;
+                gap: 1rem;
+            }
+        }
+
+        .foother-end {
+            display: flex;
+            flex-direction: column;
+
+            ul {
+                display: flex;
+                gap: 12rem;
+            }
+        }
+
+        .end {
+            display: flex;
+            flex-direction: column-reverse;
+            margin-left: 20rem;
+
+            img {
+                position: absolute;
+                margin-top: -70px;
+                margin-left: 3rem;
+            }
+
+        }
+
+    }
+
+    .headir {
+
+        .navbar {
+            display: flex;
+            gap:1rem;
+            .sider{
+                display: block;
+            }
+        }
+
+        input {
+            display: none;
+        }
+
+        button {
+            display: none;
+        }
+
+        li {
+            display: none;
+        }
+
+        .searchh {
+            opacity: 0;
+        }
+    }
+        .showcase {
+            .good {
+                display: flex;
+                flex-direction: column-reverse;
+
+            }
+        }
+    
+
+}

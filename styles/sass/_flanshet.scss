@@ -1,0 +1,135 @@
+@media (max-width:1200px){
+    .container{
+        width:850px;
+        .explore{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .friend{max-width: 600px;
+            height: 700px;
+            display: flex;
+            margin-left: 8.5rem;
+            flex-direction: column-reverse;
+            
+        }
+        }
+    
+    .sect{
+        .are{
+            display: grid;
+            grid-template-columns: repeat(2,280px);
+            grid-template-rows: repeat(4,fr);
+            justify-content: center;
+            gap:2rem 2rem
+        }
+    }
+    .products{
+        .our {padding: 2rem 6rem;
+            margin-left: 3rem;
+                display: flex;
+                justify-content: space-evenly;}
+       .shoker{
+            display: grid;
+                grid-template-columns: repeat(2, 280px);
+                grid-template-rows: repeat(4, 480px);
+                justify-content: center;
+                gap: 2rem 2rem;
+
+        }
+    }
+    .knowledge{
+        .pet{
+            display: flex;
+            justify-content: space-evenly;
+              line-height: 30px;
+        }
+        .div-dogs{
+           .dogss2{
+                display: none;
+            }
+            display: grid;
+                grid-template-columns: repeat(1, 380px);
+                grid-template-rows: repeat(1,1fr);
+                justify-content: center;
+                }
+    }
+    .adaption{display: none;
+        
+    }
+    .foother{
+        .foother-center{
+            margin-top:5rem;
+            display: flex;
+            flex-direction: column;
+            h2{
+                width: 100%;
+            }
+            a{
+            display: flex;
+            gap:1rem;
+        }
+        }
+        .foother-end{
+            display: flex;
+            flex-direction: column;
+            ul{
+                display: flex;
+            gap:12rem;           }
+        }
+        .end{
+            display: flex;
+            flex-direction:column-reverse;
+            margin-left: 20rem;
+            img{
+                position: absolute;
+                margin-top: -70px;
+                margin-left: 3rem;
+            }
+            
+        }
+        
+    }
+    .headir{
+        .navbar{
+            .sider{
+                display: block;
+                .sidbar{display: block;
+                    li{
+                        display: block;
+                    }
+                    .join{
+                        display: block;
+                    }
+                }
+            }
+            display: flex;
+            justify-content: center;
+        }
+            input{
+                display: none;
+            }
+            button{
+                display: none;
+            }
+            i{
+                display: block;
+            }
+            li{
+                display: none;
+            }
+            p{
+                display: none;
+            }
+            .searchh{
+                opacity: 0;
+            }
+    }
+        .showcase{
+            .good{display: flex;
+                flex-direction: column;
+                padding: 0 6rem;
+            }
+        }
+    
+
+}
