@@ -877,44 +877,5 @@ a {
     flex-direction: column;
   }
 }
-.loading {
-  background-color: brown;
-  position: fixed;
-  inset: 0;
-  z-index: 9999;
-  display: grid;
-  place-items: center;
-}
 
-.loader i {
-  font-size: 150px;
-  -webkit-animation: aylanish 3s ease-in-out infinite;
-          animation: aylanish 3s ease-in-out infinite;
-}
-@-webkit-keyframes aylanish {
-  to {
-    transform: rotate(360deg);
-  }
-}
-@keyframes aylanish {
-  to {
-    transform: rotate(360deg);
-  }
-}
-@-webkit-keyframes yuqol {
-  to {
-    visibility: visible;
-    opacity: 0;
-  }
-}
-@keyframes yuqol {
-  to {
-    visibility: visible;
-    opacity: 0;
-  }
-}/*# sourceMappingURL=main.css.map */eyframes yuqol {
-  to {
-    visibility: visible;
-    opacity: 0;
-  }
-}/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
