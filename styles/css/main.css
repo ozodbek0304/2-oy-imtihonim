@@ -712,6 +712,9 @@ a {
     display: flex;
     justify-content: center;
   }
+  .headir .navbar img {
+    transform: translateX(150px);
+  }
   .headir .navbar .sider {
     display: block;
   }
