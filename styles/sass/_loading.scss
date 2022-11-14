@@ -1,0 +1,25 @@
+.loading{
+    background-color:brown;
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: grid;
+    place-items: center;
+
+}
+.loader{
+    i{font-size: 150px;
+    animation: aylanish 3s ease-in-out infinite;}
+    @keyframes aylanish {
+        to{
+            transform: rotate(360deg);
+        }
+        
+    }
+    @keyframes yuqol {to{
+        visibility: visible;
+        opacity: 0;
+    }
+        
+    }
+}

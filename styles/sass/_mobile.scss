@@ -67,8 +67,8 @@
 
     }
 
-    .foother {
-        .foother-center {
+    .foother {width: 500px;
+        .foother-center {width: 500px;
             margin-top: 5rem;
             display: flex;
             flex-direction: column;
@@ -141,7 +141,7 @@
         .showcase {
             .good {
                 display: flex;
-                flex-direction: column-reverse;
+                flex-direction: column;
 
             }
         }

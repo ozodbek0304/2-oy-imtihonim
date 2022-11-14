@@ -730,17 +730,29 @@ a {
   .headir input {
     display: none;
   }
-  .headir button {
+  .headir .sub1 {
     display: none;
   }
   .headir i {
     display: block;
+    transform: translateX(80px);
   }
   .headir li {
     display: none;
   }
+  .headir .search {
+    position: relative;
+  }
   .headir p {
     display: none;
+  }
+  .headir .lab {
+    width: 200px;
+    border-radius: 10px;
+    transform: translateX(80px);
+    height: 50px;
+    background-color: aliceblue;
+    display: block;
   }
   .headir .searchh {
     opacity: 0;
@@ -751,9 +763,9 @@ a {
     padding: 0 6rem;
   }
 }
-@media (max-width: 414px) {
+@media (max-width: 578px) {
   .container {
-    width: 410px;
+    width: 550px;
   }
   .container .explore {
     display: flex;
@@ -803,7 +815,11 @@ a {
   .adaption {
     display: none;
   }
+  .foother {
+    width: 500px;
+  }
   .foother .foother-center {
+    width: 500px;
     margin-top: 5rem;
     display: flex;
     flex-direction: column;
@@ -858,6 +874,42 @@ a {
   }
   .showcase .good {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+  }
+}
+.loading {
+  background-color: brown;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: grid;
+  place-items: center;
+}
+
+.loader i {
+  font-size: 150px;
+  -webkit-animation: aylanish 3s ease-in-out infinite;
+          animation: aylanish 3s ease-in-out infinite;
+}
+@-webkit-keyframes aylanish {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes aylanish {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes yuqol {
+  to {
+    visibility: visible;
+    opacity: 0;
+  }
+}
+@keyframes yuqol {
+  to {
+    visibility: visible;
+    opacity: 0;
   }
 }/*# sourceMappingURL=main.css.map */
